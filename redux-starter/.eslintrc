@@ -1,0 +1,8 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "max-len": [1, 90, 2, { "ignoreComments": true }]
+  }
+}
